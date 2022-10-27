@@ -28,12 +28,12 @@
 export default {
   head() {
     return {
-      title: "NuxtJs UI kit | Free UI kit built with Vuetify",
+      title: "AClean",
       meta: [
         {
-          hid: "description",
-          name: "Next Ui Kit",
-          content: "Next Ui Kit is the best way",
+          hid: "",
+          name: "",
+          content: "",
         },
       ],
     };

@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div dense fixed>
     <!-- -----------------------------------------------
           Start Header
     ----------------------------------------------- -->
-    <v-app-bar app absolute class="app-header" flat elevate-on-scroll>
+    <v-app-bar app  class="app-header " c elevate-on-scroll fixed>
       <v-container class="py-0 fill-height">
         <!-- Logo -->
         <Logo />
@@ -20,24 +20,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="/"> Custom Components </n-link>
+              <n-link class="nav-link" nuxt to="/"> Home</n-link>
             </li>
             <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="/basic-components">
-                Basic Components
+                About
               </n-link>
             </li>
             <li class="nav-item">
               <!-- login-regiter -->
-              <v-btn
-                color="white"
-                nuxt
-                target="_blank"
-                href="/"
-                elevation="0"
-              >
-                Download Free
-              </v-btn>
+              
             </li>
           </ul>
         </div>

@@ -1,9 +1,9 @@
 {
-  "name": "NextKit-Free-Nuxt-Js-UI-Kit",
+  "name": "AClean",
   "version": "1.0.0",
   "private": true,
-  "description": "NextUI - Free Nuxt Js UI Kit",
-  "author": "Wrappixel",
+  "description": "Solusi Masalah AC",
+  "author": "AClean Company",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,10 +12,14 @@
   },
   "dependencies": {
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
+    "nuxt": "^2.13.3",
     "vuetify": "^2.5.5"
+    
+    
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.1"
+    "@nuxtjs/vuetify": "^1.12.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.7.13"
   }
 }
