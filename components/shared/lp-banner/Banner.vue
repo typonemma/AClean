@@ -11,17 +11,17 @@
              AClean
             </h1>
             <h4 class="banner-subtitle white--text font-weight-regular">
-              Free Vuetify UI Kit with Lots of Ready to Use Sections
+              Pengalaman baru service AC
             </h4>
             <div class="mt-16 pt-2 ">
               <v-btn
                 class=""
                 nuxt
-                color="secondary"
+                color="primary"
                 depressed
                 to="/"
-                elevation="0">
-                Hire Me
+                elevation="0" >
+                Download AClean
               </v-btn>
             </div>
           </div>
